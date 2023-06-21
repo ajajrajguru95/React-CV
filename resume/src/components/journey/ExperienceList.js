@@ -7,7 +7,7 @@ export default function ExperienceList( { heading } ) {
             heading: "Technical Lead",
             caption : "Kilowott Pvy Ltd, Porvorim",
             startdate : "2019",
-            enddate: "",
+            enddate: "Working",
             info: 'Lorem ipsum dolllar amet'
         },
         {
@@ -27,8 +27,8 @@ export default function ExperienceList( { heading } ) {
     ]
 
     return (
-        <div className="">
-            <h2>{heading}</h2>
+        <div className="pl-8 mb-16 pb-16 border-b-2 border-primary">
+            <h2 className="uppercase pb-2">{heading}</h2>
             <CalendarBlock items={expList} />
         </div>
     )

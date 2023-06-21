@@ -3,7 +3,7 @@ import MainBlock from './components/journey/MainBlock';
 
 function App() {
   return (
-    <div className="grid grid-cols-3 gap-7 container mx-auto font-base shadow-md bg-secondary">
+    <div className="grid grid-cols-3 container mx-auto font-base shadow-md bg-secondary my-8">
 
       <div className="col-span-1 text-center p-5 border-r-2 border-primary">
         {/* Sidebar component */}
@@ -11,7 +11,7 @@ function App() {
       </div>
 
 
-      <div className="col-span-2 p-5">
+      <div className="col-span-2 py-8">
         {/* All experiences, academics etc */}
         <MainBlock />
       </div>

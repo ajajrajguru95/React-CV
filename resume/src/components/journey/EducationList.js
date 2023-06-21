@@ -14,8 +14,8 @@ export default function EducationList( { heading } ) {
     ]
 
     return (
-        <div className="">
-            <h2>{heading}</h2>
+        <div className="pl-8 mb-16 pb-16 border-b-2 border-primary">
+            <h2 className="uppercase pb-2">{heading}</h2>
             <CalendarBlock items={eduList} />
         </div>
     )

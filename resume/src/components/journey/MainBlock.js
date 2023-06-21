@@ -8,8 +8,10 @@ export default function MainBlock () {
         <>
             <ExperienceList heading="Work Experiences" />
             <EducationList heading="My Education" />
-            <SoftSkills heading="Soft Skills" />
-            <Language heading="Languages" />
+            <div className="pl-8 flex ">
+                <SoftSkills heading="Soft Skills" />
+                <Language heading="Languages" />
+            </div>
         </>
     )
 }
