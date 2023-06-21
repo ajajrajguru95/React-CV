@@ -24,10 +24,10 @@ export default function Sidebar() {
 
             {/* Info */}
             <Info>
-                <h3>
+                <h3 className="text-5xl font-extrabold mb-4">
                     Hello
                 </h3>
-                <p>
+                <p className="max-w-[250px] mx-auto">
                     Lorem ipsum dollar amet sit amet testing message. Lorem ipsum dollar amet sit amet testing message. Lorem ipsum dollar amet sit amet testing message. Lorem ipsum dollar amet sit amet testing message. 
                 </p>
             </Info>

@@ -24,7 +24,7 @@ export default function HardSkills( { heading } ) {
     ]
 
     return (
-        <div>
+        <div className="mt-12">
             <h2 className="uppercase pb-2">{heading}</h2>
             <Skills skills={skillist} />
         </div>
