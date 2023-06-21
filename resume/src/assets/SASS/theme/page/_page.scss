@@ -1,0 +1,6 @@
+
+body{
+    @apply min-h-screen grid grid-rows-1 place-items-center;
+    background-color: theme('colors.body');
+}
+

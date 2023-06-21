@@ -1,0 +1,16 @@
+.card{
+    position: relative;
+    isolation: isolate;
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: calc(100% + 2.5rem);
+        height: 100%;
+        clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 95%);
+        background-color: theme('colors.primary');
+        z-index: -1;
+        margin: -1.25rem;
+    }
+}
